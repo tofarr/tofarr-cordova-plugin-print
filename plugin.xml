@@ -19,7 +19,7 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="TofarrCordovaPrint">
-        <param name="android-package" value="org.tofarr.plugin.Print"/>
+        <param name="android-package" value="org.tofarr.plugin.TofarrCordovaPrint"/>
       </feature>
     </config-file>
 
