@@ -16,7 +16,6 @@ public class TofarrCordovaPrint extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
-        LOG.i("TofarrCordovaPrint", "execute:1");
         if (action.equals("print")) {
 
           final WebView view = (WebView)this.webView.getView();
