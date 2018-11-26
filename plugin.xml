@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="org.tofarr.cordova.print"
+        version="0.7.0">
+
+  <name>Tofarr Cordova Plugin Print</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/tofarrCordovaPrint.js" target="js/tofarrCordovaPrint.js"/>
+
+  <js-module src="www/tofarrCordovaPrint.js" name="tofarrCordovaPrint">
+    <clobbers target="tofarrCordovaPrint" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="TofarrCordovaPrint">
+        <param name="android-package" value="org.tofarr.plugin.Print"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/TofarrCordovaPrint.java" target-dir="src/com/example/plugin/"/>
+  </platform>
+
+</plugin>

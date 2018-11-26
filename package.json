@@ -1,0 +1,29 @@
+{
+  "name": "tofarr-cordova-plugin-print",
+  "version": "0.1.0",
+  "description": "A cordova plugin for printing on android",
+  "cordova": {
+    "id": "cordova-plugin-hello",
+    "platforms": [
+      "android",
+      "ios",
+      "wp7"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tofarr/tofarr-cordova-plugin-print.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "print",
+    "cordova-android"
+  ],
+  "author": "Tim O'Farrell",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/tofarr/tofarr-cordova-plugin-print/issues"
+  },
+  "homepage": "https://github.com/tofarr/tofarr-cordova-plugin-print#readme"
+}
